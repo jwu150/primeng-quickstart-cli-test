@@ -17,10 +17,12 @@ import { ToolbarModule } from 'primeng/toolbar';
 import { ConfirmationService } from 'primeng/api';
 
 import { AppComponent } from './app.component';
+import { TableComponent } from './table/table.component';
 
 @NgModule({
     declarations: [
-        AppComponent
+        AppComponent,
+        TableComponent
     ],
     imports: [
         BrowserModule,
